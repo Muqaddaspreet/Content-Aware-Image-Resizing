@@ -93,11 +93,52 @@ Make sure you have Python installed. Then, install the required libraries using:
 pip install -r requirements.txt
 ```
 
-### 🔧 **2. 📜 2. Run the Scripts**
-To compute an energy map and perform seam carving:
+### 🔧 **2. 📜 Run the Scripts**
+
+**➤ Compute Energy Maps & Perform Seam Removal*
+To compute an energy map and perform seam removal using different energy functions:
+
+- For Gradient Energy Function:
 
 ```bash
-python scripts/seam_carving.py --input images/original_image.jpg --energy e1
+python SeamRemoval_Gradient_energyFunction.py --input image.jpg
+```
+
+- For e1 Energy Function:
+
+```bash
+python SeamRemoval_e1_energyFunction.py --input image.jpg
+```
+
+- For eEntropy Energy Function:
+
+```bash
+python SeamRemoval_eEntropy_energyFunction.py --input image.jpg
+```
+
+**➤ Run Image Resizing Techniques**
+- Column-wise Pixel Updation:
+
+```bash
+python Image_Pixel_Resize_Column_Wise.py --input image.jpg
+```
+
+- Row-wise Pixel Updation:
+
+```bash
+python Image_Pixel_Resize_Row_Wise.py --input image.jpg
+```
+
+- Global Pixel Updation:
+
+```bash
+python Image_Pixel_Resize_Global.py --input image.jpg
+```
+
+- Cropping & Upscaling Resizing:
+
+```bash
+python Image_Resize_Crop_and_Upscaling --input image.jpg
 ```
 
 ## 📊 Results & Comparisons
@@ -110,23 +151,26 @@ python scripts/seam_carving.py --input images/original_image.jpg --energy e1
 
 ## 🔮 Future Work
 
-📌 **Expand Techniques:** Implement **Wavelet-Based Seam Carving** to improve resizing performance.
-📌 **Performance Optimization:** Reduce computational time for entropy-based resizing methods.
-📌 **Object-Aware Resizing:** Integrate **object segmentation** to protect key image features while resizing.
-📌 **Real-Time Implementation:** Adapt the algorithm for **video resizing** in real-time.
+- 📌 **Expand Techniques:** Implement **Wavelet-Based Seam Carving** to improve resizing performance.
+- 📌 **Performance Optimization:** Reduce computational time for entropy-based resizing methods.
+- 📌 **Object-Aware Resizing:** Integrate **object segmentation** to protect key image features while resizing.
+- 📌 **Real-Time Implementation:** Adapt the algorithm for **video resizing** in real-time.
 
 ## 📖 Research Paper
+
 For a **detailed explanation** of the algorithms, methodology, and results, read the full research paper:
 📄 **[Read the Full Research Paper](Image_Resizing_Techniques.pdf)**
 
 ## 📜 References
+
 1. S. Avidan and A. Shamir, “**Seam Carving for Content-Aware Image Resizing**”, ACM Trans. Graph., 2007.
 2. J.-W. Han, K.-S. Choi, T.-S. Wang, S.-H. Cheon, and S.-J. Ko, “**Wavelet-Based Seam Carving for Content-Aware Image Resizing**”, IEEE, 2010.
 
 ## 👤 Contact
-👨‍💻 **Muqaddaspreet Singh Bhatia**
-📫 Email: *(muqaddaspreetsb@gmail.com)*
-🌐 GitHub: [Muqaddaspreet](https://github.com/Muqaddaspreet)
+
+- 👨‍💻 **Muqaddaspreet Singh Bhatia**
+- 📫 Email: *(muqaddaspreetsb@gmail.com)*
+- 🌐 GitHub: [Muqaddaspreet](https://github.com/Muqaddaspreet)
 
 🚀 If you found this project useful, **consider starring ⭐ the repo!**
 
