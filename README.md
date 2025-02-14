@@ -95,7 +95,8 @@ pip install -r requirements.txt
 
 ### 🔧 **2. 📜 Run the Scripts**
 
-**➤ Compute Energy Maps & Perform Seam Removal*
+**➤ Compute Energy Maps & Perform Seam Removal**
+
 To compute an energy map and perform seam removal using different energy functions:
 
 - For Gradient Energy Function:
