@@ -145,10 +145,23 @@ python Image_Resize_Crop_and_Upscaling --input image.jpg
 ## 📊 Results & Comparisons
 
 ### 🔹 Energy Maps
+| e1 Energy Function | eEntropy Energy Function | Gradient Energy Function |
+|-------------------|----------------------|----------------------|
+| ![e1 Energy](images/e1_energy_function/2.EnergyMap.jpg) | ![eEntropy Energy](images/eEntropy_energy_function/2.EnergyMap.jpg) | ![Gradient Energy](images/gradient_energy_function/Content-Aware_Seam_Removal_with_Gradient/2.EnergyMap.jpg) |
+
+---
 
 ### 🔹 Horizontal Resizing Comparisons
+| Original | Seam Carving | Column-wise Update | Row-wise Update |
+|----------|------------|------------------|------------------|
+| ![Original](images/e1_energy_function/1.OriginalImage.jpg) | ![Seam Carving](images/e1_energy_function/3.ImageCarvedHorizontallyBy50.jpg) | ![Column-wise](images/gradient_energy_function/Pixel_Updation_Column-Wise/3.ImageCarvedHorizontallyBy50.jpg) | ![Row-wise](images/gradient_energy_function/Pixel_Updation_Row-Wise/3.ImageCarvedHorizontallyBy50.jpg) |
+
+---
 
 ### 🔹 Vertical Resizing Comparisons
+| Original | Seam Carving | Global Pixel Update |
+|----------|------------|------------------|
+| ![Original](images/e1_energy_function/1.OriginalImage.jpg) | ![Seam Carving](images/e1_energy_function/5.ImageCarvedVerticallyBy50.jpg) | ![Global Update](images/gradient_energy_function/Pixel_Updation_Global/5.ImageCarvedVerticallyBy50.jpg) |
 
 ## 🔮 Future Work
 
