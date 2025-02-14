@@ -43,29 +43,26 @@ For **gradient-based resizing**, additional **techniques** are explored:
 
 ```bash
 .
-├── README.md                         # Project documentation
-├── scripts/                           # Python scripts for energy functions & resizing
-│   ├── e1_energy.py                   # e1 energy function implementation
-│   ├── eEntropy_energy.py             # eEntropy energy function implementation
-│   ├── gradient_energy.py             # Gradient energy function implementation
-│   ├── seam_carving.py                # Seam carving technique
-│   ├── crop_upscale.py                # Cropping & upscaling method
-│   ├── pixel_update_col.py            # Column-wise pixel update
-│   ├── pixel_update_row.py            # Row-wise pixel update
-│   ├── pixel_update_global.py         # Global pixel modification
-│   ├── content_aware_seam.py          # Content-aware seam removal method
-│   └── utils.py                        # Helper functions
-├── images/                            # Contains all images used in the project
-│   ├── original/                      # Original images before resizing
-│   ├── energy_maps/                    # Energy maps for each function
-│   ├── carved/                         # Images after seam carving
-│   ├── enlarged/                       # Images after enlargement
-│   ├── resized/                        # Custom resized images
-│   ├── technique_comparison/           # Comparison of different resizing techniques
-│   └── results/                         # Final images and outputs
-├── requirements.txt                   # Dependencies list
-├── Image_Resizing_Techniques.pdf       # Research paper
-└── LICENSE                             # License information
+├── README.md                              # Project documentation
+├── images/                                # Contains all images used in the project
+│   ├── e1_energy_function/                # e1 energy function images
+│   ├── eEntropy_energy_function/          # eEntropy energy function images
+│   ├── gradient_energy_function/          # Gradient energy function images
+│   │   ├── Content-Aware_Seam_Removal_with_Gradient/
+│   │   ├── Crop_and_Upscaling/
+│   │   ├── Pixel_Updation_Column-Wise/
+│   │   ├── Pixel_Updation_Global/
+│   │   ├── Pixel_Updation_Row-Wise/
+├── Image_Pixel_Resize_Column_Wise.py      # Column-wise pixel update script
+├── Image_Pixel_Resize_Global.py           # Global pixel modification script
+├── Image_Pixel_Resize_Row_Wise.py         # Row-wise pixel update script
+├── Image_Resize_Crop_and_Upscaling.py     # Cropping & upscaling method
+├── Image_Resizing_Techniques.pdf          # Research paper
+├── SeamRemoval_Gradient_energyFunction.py # Seam removal using gradient energy
+├── SeamRemoval_e1_energyFunction.py       # Seam removal using e1 energy
+├── SeamRemoval_eEntropy_energyFunction.py # Seam removal using eEntropy energy
+├── image.jpg                              # Sample image used for processing
+└── requirements.txt                       # Dependencies list
 ```
 
 ---
