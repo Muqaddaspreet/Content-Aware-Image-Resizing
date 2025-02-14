@@ -154,14 +154,14 @@ python Image_Resize_Crop_and_Upscaling --input image.jpg
 ### 🔹 Horizontal Resizing Comparisons
 | Original | Seam Carving | Column-wise Update | Row-wise Update |
 |----------|------------|------------------|------------------|
-| ![Original](images/e1_energy_function/1.OriginalImage.jpg) | ![Seam Carving](images/e1_energy_function/3.ImageCarvedHorizontallyBy50.jpg) | ![Column-wise](images/gradient_energy_function/Pixel_Updation_Column-Wise/3.ImageCarvedHorizontallyBy50.jpg) | ![Row-wise](images/gradient_energy_function/Pixel_Updation_Row-Wise/3.ImageCarvedHorizontallyBy50.jpg) |
+| ![Original](images/e1_energy_function/1.OriginalImage.jpg) | ![Seam Carving](images/e1_energy_function/3.ImageCarvedHorizontallyBy50.jpg) | ![Column-wise](images/gradient_energy_function/Pixel_Updation_Column-Wise/2.ImageCarvedHorizontallyBy50.jpg) | ![Row-wise](images/gradient_energy_function/Pixel_Updation_Row-Wise/2.ImageCarvedHorizontallyBy50.jpg) |
 
 ---
 
 ### 🔹 Vertical Resizing Comparisons
 | Original | Seam Carving | Global Pixel Update |
 |----------|------------|------------------|
-| ![Original](images/e1_energy_function/1.OriginalImage.jpg) | ![Seam Carving](images/e1_energy_function/5.ImageCarvedVerticallyBy50.jpg) | ![Global Update](images/gradient_energy_function/Pixel_Updation_Global/5.ImageCarvedVerticallyBy50.jpg) |
+| ![Original](images/e1_energy_function/1.OriginalImage.jpg) | ![Seam Carving](images/e1_energy_function/5.ImageCarvedVerticallyBy50.jpg) | ![Global Update](images/gradient_energy_function/Pixel_Updation_Global/4.ImageCarvedVerticallyBy50.jpg) |
 
 ## 🔮 Future Work
 
